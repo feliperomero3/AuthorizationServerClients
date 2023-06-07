@@ -1,0 +1,17 @@
+{
+  "name": "javascript-app",
+  "version": "1.0.0",
+  "description": "Simple JavaScript application integrated with an authorization server.",
+  "author": "Felipe Romero",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel src/*.html --port 4000 --open"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.1"
+  },
+  "dependencies": {
+    "oidc-client": "^1.11.5"
+  }
+}
