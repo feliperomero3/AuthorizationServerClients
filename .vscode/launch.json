@@ -10,11 +10,11 @@
         "dist",
         ".parcel-cache"
       ],
-      "cwd": "${workspaceFolder}/src/javascript",
+      "cwd": "${workspaceFolder}/src/javascript/src",
       "runtimeExecutable": "npm",
       "runtimeArgs": [
         "start"
-      ],
+      ]
     }
   ]
 }
